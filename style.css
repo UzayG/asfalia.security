@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'JetBrains Mono', monospace;
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   background: radial-gradient(circle at top, #0f172a, #020617);
   color: #e5e7eb;
-  min-height: 100vh;
 }
 
 /* NAVBAR */
@@ -19,45 +18,50 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 24px 80px;
-  background: rgba(2,6,23,0.8);
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  background: rgba(2,6,23,0.9);
+  position: sticky;
+  top: 0;
 }
 
 .logo {
   font-size: 22px;
   font-weight: 800;
-  letter-spacing: 1px;
 }
 
 .logo span {
   color: #22d3ee;
 }
 
-.nav ul {
+.menu {
   display: flex;
   gap: 30px;
   list-style: none;
 }
 
-.nav a {
+.menu a {
   color: #94a3b8;
   text-decoration: none;
-  transition: color .2s;
 }
 
-.nav a:hover {
+.menu a:hover {
   color: #22d3ee;
 }
 
 /* HERO */
 .hero {
-  padding: 120px 80px;
-  max-width: 900px;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.hero-content {
+  max-width: 700px;
 }
 
 .hero h1 {
-  font-size: 64px;
-  line-height: 1.1;
+  font-size: 56px;
+  line-height: 1.2;
 }
 
 .hero h1 span {
@@ -67,13 +71,13 @@ body {
 }
 
 .hero p {
-  margin-top: 30px;
+  margin-top: 20px;
   color: #94a3b8;
-  max-width: 600px;
 }
 
+/* BUTTONS */
 .actions {
-  margin-top: 40px;
+  margin-top: 35px;
   display: flex;
   gap: 20px;
 }
@@ -81,9 +85,8 @@ body {
 .btn {
   padding: 14px 30px;
   border-radius: 10px;
-  cursor: pointer;
-  font-weight: 600;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .primary {
@@ -96,28 +99,6 @@ body {
   color: #22d3ee;
 }
 
-/* FEATURES */
-.features {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 30px;
-  padding: 80px;
-}
-
-.card {
-  background: rgba(255,255,255,0.03);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 16px;
-  padding: 30px;
-  transition: transform .2s;
-}
-
-.card:hover {
-  transform: translateY(-10px);
-}
-
-.card h3 {
-  margin-bottom: 15px;
-  color: #22d3ee;
-}
-
+/* ABOUT */
+.about {
+  pad
