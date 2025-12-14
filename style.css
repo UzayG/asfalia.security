@@ -11,7 +11,7 @@
     --text-dark: #2d3748;
     --text-light: #718096;
     --bg-light: #f7fafc;
-    --white: #ffffff;
+    --white: #e5e7eb;
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
@@ -653,4 +653,26 @@ body {
     .about-text h2 {
         font-size: 2rem;
     }
+}
+
+
+/* --- Modern subtle tweaks added --- */
+:root {
+  --primary: #38bdf8;
+  --accent: #22c55e;
+}
+
+a, h1, h2 {
+  color: var(--primary);
+}
+
+button {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
