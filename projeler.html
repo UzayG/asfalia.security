@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projeler • Asfalia Security</title>
+  <meta name="description" content="Asfalia Security projeleri." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html#anasayfa" aria-label="Asfalia Security ana sayfa">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-text">ASFALIA<span class="accent">.SECURITY</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Ana menü">
+        <a href="index.html#anasayfa">Anasayfa</a>
+        <a href="index.html#hizmetler">Hizmetler</a>
+        <a href="index.html#ekip">Ekibimiz</a>
+        <a href="index.html#iletisim" class="nav-cta">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h1 class="page-title">Projeler</h1>
+          <p>Her kartın bir hedefi var; linkler “boş” kalmıyor.</p>
+        </div>
+
+        <div class="grid projects">
+          <article class="project wide" id="web">
+            <div class="badge">WEB</div>
+            <h2>Web Uygulaması Güvenlik İncelemesi</h2>
+            <p>Login akışı, yetkilendirme, XSS/SQLi kontrolleri, güvenli header setleri.</p>
+            <ul>
+              <li>OWASP Top 10 kontrol listesi</li>
+              <li>Bulgu & kanıt ekran görüntüsü</li>
+              <li>Önceliklendirme + çözüm adımları</li>
+            </ul>
+          </article>
+
+          <article class="project wide" id="api">
+            <div class="badge">API</div>
+            <h2>API Güvenliği</h2>
+            <p>JWT/OAuth akışları, rate limit, input validation ve log standardı.</p>
+            <ul>
+              <li>Schema doğrulama</li>
+              <li>Rate limit & throttling</li>
+              <li>Hata mesajı sızdırma kontrolü</li>
+            </ul>
+          </article>
+
+          <article class="project wide" id="soc">
+            <div class="badge">SOC</div>
+            <h2>SOC Alarm İyileştirme</h2>
+            <p>Yanlış pozitifleri azaltmak için korelasyon + runbook + triage mantığı.</p>
+            <ul>
+              <li>Kural optimizasyonu</li>
+              <li>Playbook / runbook</li>
+              <li>Severity & escalation</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="center">
+          <a class="btn ghost" href="index.html#projeler">← Ana sayfaya dön</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Asfalia Security • Projeler</p>
+      <div class="footer-links">
+        <a href="index.html#anasayfa">Yukarı</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

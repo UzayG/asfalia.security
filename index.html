@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Asfalia Security</title>
+  <meta name="description" content="Asfalia Security — siber güvenlik, zafiyet analizi ve savunma çözümleri." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip" href="#icerik">İçeriğe atla</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#anasayfa" aria-label="Asfalia Security ana sayfa">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-text">ASFALIA<span class="accent">.SECURITY</span></span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="navMenu">
+        <span class="sr-only">Menüyü aç/kapat</span>
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="navMenu" class="nav" aria-label="Ana menü">
+        <a href="#anasayfa">Anasayfa</a>
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#projeler">Projeler</a>
+        <a href="#ekip">Ekibimiz</a>
+        <a href="#iletisim" class="nav-cta">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="icerik">
+    <section id="anasayfa" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <p class="kicker">SİBER GÜVENLİK • ZAFİYET ANALİZİ • SAVUNMA</p>
+          <h1>Dijital güvenliğiniz,<br><span class="grad">bizim önceliğimiz</span>.</h1>
+          <p class="lead">
+            Asfalia Security; modern sistemlerde saldırıları yalnızca tespit etmez —
+            <strong>önler, analiz eder ve raporlar</strong>.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn primary" href="#iletisim">Teklif Al</a>
+            <a class="btn ghost" href="projeler.html">Projeler Sayfası</a>
+          </div>
+
+          <div class="trust">
+            <div class="pill"><strong>100+</strong><span>Çalışma</span></div>
+            <div class="pill"><strong>50+</strong><span>Kurum</span></div>
+            <div class="pill"><strong>7/24</strong><span>İzleme</span></div>
+          </div>
+        </div>
+
+        <div class="hero-right" aria-hidden="true">
+          <div class="glass">
+            <div class="glass-top">
+              <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+              <span class="title">live-monitor.log</span>
+            </div>
+            <pre class="terminal"><code>
+[OK]  policy: zero-trust enabled
+[OK]  waf:   ruleset updated
+[WARN] auth: brute-force attempt blocked
+[OK]  siem:  incident grouped (sev: low)
+[OK]  patch: critical CVE mitigated
+            </code></pre>
+          </div>
+
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hizmetler" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Hizmetler</h2>
+          <p>Linkler “boş” kalmasın diye her menü öğesinin gerçek hedefi var.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <h3>Penetrasyon Testi</h3>
+            <p>Gerçek saldırı senaryoları ile web, ağ ve API güvenliğinizi test ederiz.</p>
+            <ul>
+              <li>OWASP Top 10</li>
+              <li>Rapor + öneri planı</li>
+              <li>Doğrulama testi</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Zafiyet Analizi</h3>
+            <p>Riskleri bulur, önceliklendirir ve kapatılabilir aksiyon listesi çıkarırız.</p>
+            <ul>
+              <li>Risk puanlama</li>
+              <li>Yama / mitigasyon</li>
+              <li>Takip matrisi</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>SOC & İzleme</h3>
+            <p>Olayları korele eder, alarm gürültüsünü azaltır, aksiyona çeviririz.</p>
+            <ul>
+              <li>SIEM kural seti</li>
+              <li>Uyarı iyileştirme</li>
+              <li>Olay raporu</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projeler" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Öne Çıkan Projeler</h2>
+          <p>Projeler ayrıca ayrı sayfada da var.</p>
+        </div>
+
+        <div class="grid projects">
+          <a class="project" href="projeler.html#web">
+            <div class="badge">WEB</div>
+            <h3>Web Uygulaması İncelemesi</h3>
+            <p>Kimlik doğrulama, yetkilendirme ve veri sızıntısı kontrolleri.</p>
+          </a>
+          <a class="project" href="projeler.html#api">
+            <div class="badge">API</div>
+            <h3>API Güvenliği</h3>
+            <p>Token akışları, rate limit, schema validation, logging.</p>
+          </a>
+          <a class="project" href="projeler.html#soc">
+            <div class="badge">SOC</div>
+            <h3>Alarm İyileştirme</h3>
+            <p>Yanlış pozitif azaltma, korelasyon ve runbook tasarımı.</p>
+          </a>
+        </div>
+
+        <div class="center">
+          <a class="btn primary" href="projeler.html">Tüm projeleri gör</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="ekip" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Ekibimiz</h2>
+          <p>Sonradan gerçek isimlerle doldurabileceğin şık yer tutucular.</p>
+        </div>
+
+        <div class="grid team">
+          <div class="person">
+            <div class="avatar">A</div>
+            <div>
+              <h3>Analist</h3>
+              <p class="muted">Zafiyet araştırma • raporlama</p>
+            </div>
+          </div>
+          <div class="person">
+            <div class="avatar">P</div>
+            <div>
+              <h3>Pentest Uzmanı</h3>
+              <p class="muted">Web • API • ağ testleri</p>
+            </div>
+          </div>
+          <div class="person">
+            <div class="avatar">S</div>
+            <div>
+              <h3>SOC Mühendisi</h3>
+              <p class="muted">SIEM • alarm korelasyonu</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="iletisim" class="section alt">
+      <div class="container">
+        <div class="contact">
+          <div>
+            <h2>İletişim</h2>
+            <p class="muted">Form demo. İstersen “mailto:” ile gerçek mail açtırırız.</p>
+            <div class="mini">
+              <div><span class="k">E-posta</span><span class="v">info@asfalia.security</span></div>
+              <div><span class="k">Konum</span><span class="v">Türkiye</span></div>
+            </div>
+          </div>
+
+          <form class="form" onsubmit="return false;">
+            <label>
+              Ad Soyad
+              <input type="text" placeholder="Adınız" />
+            </label>
+            <label>
+              E-posta
+              <input type="email" placeholder="mail@ornek.com" />
+            </label>
+            <label>
+              Mesaj
+              <textarea rows="4" placeholder="Kısaca ihtiyacınızı yazın..."></textarea>
+            </label>
+            <button class="btn primary" type="submit">Gönder (demo)</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Asfalia Security • Demo proje sitesi</p>
+      <div class="footer-links">
+        <a href="#anasayfa">Yukarı</a>
+        <a href="projeler.html">Projeler</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
